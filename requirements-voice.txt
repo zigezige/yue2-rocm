@@ -1,0 +1,3 @@
+# Legacy filename. All local workers share runtime/python.exe (CPython 3.12).
+# Use install_runtime.bat to install CUDA wheels and the complete locked environment.
+-r requirements-unified.lock.txt

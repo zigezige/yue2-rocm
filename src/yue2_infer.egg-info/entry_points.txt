@@ -1,0 +1,2 @@
+[console_scripts]
+yue2 = yue2.cli:main

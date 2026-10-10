@@ -1,0 +1,10 @@
+# Model weights are never committed to this repository -- only the directory
+# skeleton is, so that a fresh clone shows where everything goes.
+#
+# `*` ignores everything here, `!*/` lets git descend into the subdirectories,
+# and the negative patterns re-include the placeholders.
+*
+!*/
+!.gitkeep
+!README.md
+!.gitignore

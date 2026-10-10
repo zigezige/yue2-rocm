@@ -1,0 +1,24 @@
+runtime/
+# models/ is ignored by models/.gitignore (skeleton is tracked)
+cache/
+outputs/
+uploads/
+exports/
+logs/
+downloads/
+server.json
+service.lock
+retention.json
+userdata/
+downloads/llm/
+*.gguf
+settings.json
+yue2_home.txt
+node.zip
+vendor/seed-vc/campplus_cn_common.bin
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+build/
+*.part

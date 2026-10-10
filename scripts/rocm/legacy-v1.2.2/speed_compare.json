@@ -1,0 +1,38 @@
+{
+  "A: t8 defaults (offload_ar=True)": {
+    "wall_seconds": 393.4,
+    "audio_seconds": 174.919,
+    "vae_core_frames": 512,
+    "memory_budget_gib": 23.5,
+    "offload_ar": true,
+    "abc_seconds": 49.1,
+    "semantic_seconds": 174.7,
+    "semantic_tps": 25.0,
+    "nar_seconds": 40.7,
+    "vae_seconds": 107.0,
+    "e2e_seconds": 380.6,
+    "truncated": {
+      "abc": false,
+      "semantic": false
+    },
+    "job_id": "20260913-171140-0235a9a5"
+  },
+  "B: offload_ar=False": {
+    "wall_seconds": 409.4,
+    "audio_seconds": 174.919,
+    "vae_core_frames": 512,
+    "memory_budget_gib": 23.5,
+    "offload_ar": false,
+    "abc_seconds": 51.2,
+    "semantic_seconds": 178.8,
+    "semantic_tps": 24.5,
+    "nar_seconds": 38.7,
+    "vae_seconds": 107.2,
+    "e2e_seconds": 394.2,
+    "truncated": {
+      "abc": false,
+      "semantic": false
+    },
+    "job_id": "20260913-171814-4e9073f3"
+  }
+}
